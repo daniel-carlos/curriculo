@@ -3,16 +3,15 @@ body {
   background-color: rgb(243, 243, 243);
 }
 
-.screen-only{
-
+.screen-only {
 }
 
 section > h2 {
   border-bottom: black 1px solid;
 }
 
-li{
-    page-break-inside: avoid;
+li {
+  page-break-inside: avoid;
 }
 
 @media print {
@@ -29,4 +28,9 @@ li{
   .screen-only {
     display: none !important;
   }
+}
+
+.activities {
+  background-color: rgb(238, 238, 238);
+  border-left: 5px solid lightblue;
 }
