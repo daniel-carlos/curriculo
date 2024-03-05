@@ -14,6 +14,17 @@ li {
   page-break-inside: avoid;
 }
 
+.language-selection {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.language-flag {
+  width: 2rem;
+  height: auto;
+}
+
 @media print {
   root,
   body {
@@ -27,6 +38,10 @@ li {
 
   .screen-only {
     display: none !important;
+  }
+
+  .language-selection {
+    display: none;
   }
 }
 
