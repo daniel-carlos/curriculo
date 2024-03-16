@@ -22,10 +22,16 @@ li {
   height: auto;
 }
 
+.dont-break > h2 {
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
 @media print {
   root,
   body {
     background-color: white;
+    font-size: 90%;
   }
 
   .print-default {
@@ -39,6 +45,11 @@ li {
 
   .language-selection {
     display: none;
+  }
+
+  .dont-break > h2 {
+    page-break-after: avoid;
+    break-after: avoid;
   }
 }
 
