@@ -3,9 +3,6 @@ body {
   background-color: rgb(243, 243, 243);
 }
 
-.screen-only {
-}
-
 section > h2 {
   border-bottom: black 1px solid;
 }
